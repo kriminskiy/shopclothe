@@ -1,0 +1,15 @@
+// function getProducts() {
+//   const xhr = new XMLHttpRequest();
+
+//   xhr.open("get", "https://fakestoreapi.com/products");
+//   xhr.onload = function () {
+//     if (xhr.status == 200) {
+//       let productArray = JSON.parse(xhr.response);
+//       console.log(productArray);
+//     }
+//   };
+//   xhr.onerror = function () {
+//     console.error("error");
+//   };
+//   xhr.send();
+// }
